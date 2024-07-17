@@ -1,0 +1,12 @@
+{
+  LogPath = "/log.txt",
+  EmerCoolSide = "top",
+  EmerCoolColor = 16384,
+  UnitID = 1,
+  Networked = false,
+  FrontPanelTheme = 1,
+  LogMode = 0,
+  EmerCoolEnable = true,
+  LogDebug = true,
+  ColorMode = 1,
+}

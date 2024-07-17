@@ -1,0 +1,1379 @@
+[Sat Jul 13 20:21:19 2024] [INF] ========================================
+[Sat Jul 13 20:21:19 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 20:21:19 2024] [INF] ========================================
+[Sat Jul 13 20:21:19 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 20:21:19 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 20:21:19 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 20:21:19 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 20:21:19 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 20:21:19 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 20:21:19 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 20:21:19 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 20:21:19 2024] [DBG] init> rps init
+[Sat Jul 13 20:21:19 2024] [INF] init> running without networking
+[Sat Jul 13 20:21:19 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 20:21:19 2024] [INF] init> startup completed
+[Sat Jul 13 20:21:19 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 20:21:19 2024] [DBG] rps thread start
+[Sat Jul 13 20:21:19 2024] [DBG] main thread clock started
+[Sat Jul 13 20:21:19 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:21:19 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:21:19 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:21:19 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 20:46:54 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:46:54 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:46:54 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:46:54 2024] [INF] reactor reconnected
+[Sat Jul 13 20:46:54 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sat Jul 13 20:46:54 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 20:46:54 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 20:46:54 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 20:46:54 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 20:46:54 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:46:54 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:46:54 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:46:54 2024] [INF] reactor reconnected
+[Sat Jul 13 20:46:54 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:46:54 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:46:54 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:46:54 2024] [INF] reactor is no longer formed
+[Sat Jul 13 20:46:54 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:46:54 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:46:55 2024] [INF] reactor is now formed
+[Sat Jul 13 20:46:55 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:46:55 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:46:55 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:46:55 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:48:39 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:48:39 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:48:39 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:48:39 2024] [INF] reactor reconnected
+[Sat Jul 13 20:48:39 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:48:39 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:48:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:48:39 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:48:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:48:39 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:48:39 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:48:39 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:48:39 2024] [INF] reactor reconnected
+[Sat Jul 13 20:48:39 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:48:39 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:48:39 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:48:39 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:48:39 2024] [INF] reactor reconnected
+[Sat Jul 13 20:48:39 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:48:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:48:39 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:48:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:48:40 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:48:40 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:49:02 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:49:02 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:49:02 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:49:02 2024] [INF] reactor reconnected
+[Sat Jul 13 20:49:02 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:49:02 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:49:02 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:49:02 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:49:02 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:49:02 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:49:02 2024] [INF] reactor reconnected
+[Sat Jul 13 20:49:02 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sat Jul 13 20:49:02 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:49:02 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:49:02 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:49:02 2024] [INF] reactor reconnected
+[Sat Jul 13 20:49:02 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:49:02 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 20:49:02 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 20:49:02 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:49:02 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:49:02 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:49:02 2024] [INF] reactor is no longer formed
+[Sat Jul 13 20:49:03 2024] [INF] reactor is now formed
+[Sat Jul 13 20:49:03 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:49:03 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:49:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:49:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:52:50 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:52:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:52:50 2024] [INF] reactor reconnected
+[Sat Jul 13 20:52:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:52:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:52:50 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:52:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:52:50 2024] [INF] reactor reconnected
+[Sat Jul 13 20:52:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:52:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:52:50 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:52:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:52:50 2024] [INF] reactor reconnected
+[Sat Jul 13 20:52:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:52:50 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 20:52:50 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:52:50 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:52:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:52:50 2024] [INF] reactor reconnected
+[Sat Jul 13 20:52:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:52:50 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:52:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:57:59 2024] [INF] ========================================
+[Sat Jul 13 20:57:59 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 20:57:59 2024] [INF] ========================================
+[Sat Jul 13 20:57:59 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 20:57:59 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 20:57:59 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 20:57:59 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 20:57:59 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 20:57:59 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 20:57:59 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 20:57:59 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 20:57:59 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 20:57:59 2024] [DBG] init> rps init
+[Sat Jul 13 20:57:59 2024] [INF] init> running without networking
+[Sat Jul 13 20:57:59 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 20:57:59 2024] [INF] init> startup completed
+[Sat Jul 13 20:57:59 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 20:57:59 2024] [DBG] rps thread start
+[Sat Jul 13 20:57:59 2024] [DBG] main thread clock started
+[Sat Jul 13 20:57:59 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 20:57:59 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 20:57:59 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 20:58:00 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 20:58:00 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 20:58:00 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 20:58:00 2024] [INF] reactor reconnected
+[Sat Jul 13 20:58:00 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 20:58:00 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:58:00 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 20:58:00 2024] [WRN] RPS: low coolant
+[Sat Jul 13 20:58:00 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 20:58:00 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:01:37 2024] [INF] ========================================
+[Sat Jul 13 21:01:37 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:01:37 2024] [INF] ========================================
+[Sat Jul 13 21:01:37 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:01:37 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:01:37 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:01:37 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:01:37 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:01:37 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:01:37 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:01:37 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:01:37 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:01:37 2024] [DBG] init> rps init
+[Sat Jul 13 21:01:37 2024] [INF] init> running without networking
+[Sat Jul 13 21:01:37 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:01:37 2024] [INF] init> startup completed
+[Sat Jul 13 21:01:37 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:01:37 2024] [DBG] rps thread start
+[Sat Jul 13 21:01:37 2024] [DBG] main thread clock started
+[Sat Jul 13 21:01:37 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:01:37 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:01:37 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:01:38 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:01:38 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:01:38 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:01:38 2024] [INF] reactor reconnected
+[Sat Jul 13 21:01:38 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:01:38 2024] [INF] reactor is no longer formed
+[Sat Jul 13 21:01:38 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:01:38 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:01:38 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:01:38 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:01:38 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:01:38 2024] [INF] reactor is now formed
+[Sat Jul 13 21:01:38 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:01:39 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:01:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:01:39 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:05:12 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:05:12 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:05:12 2024] [INF] reactor reconnected
+[Sat Jul 13 21:05:12 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:05:12 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:05:12 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:05:12 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:05:12 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:05:12 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:05:12 2024] [INF] reactor reconnected
+[Sat Jul 13 21:05:12 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:05:12 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:05:12 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 21:05:12 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:05:12 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:05:12 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:05:12 2024] [INF] reactor reconnected
+[Sat Jul 13 21:05:12 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:05:12 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:05:12 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:05:13 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:05:13 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:10:49 2024] [INF] ========================================
+[Sat Jul 13 21:10:49 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:10:49 2024] [INF] ========================================
+[Sat Jul 13 21:10:49 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:10:49 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:10:49 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:10:49 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:10:49 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:10:49 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:10:49 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:10:49 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:10:49 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:10:49 2024] [DBG] init> rps init
+[Sat Jul 13 21:10:49 2024] [INF] init> running without networking
+[Sat Jul 13 21:10:49 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:10:49 2024] [INF] init> startup completed
+[Sat Jul 13 21:10:49 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:10:49 2024] [DBG] rps thread start
+[Sat Jul 13 21:10:49 2024] [DBG] main thread clock started
+[Sat Jul 13 21:10:50 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:10:50 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:10:50 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:10:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:10:50 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:10:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:10:50 2024] [INF] reactor reconnected
+[Sat Jul 13 21:10:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:10:50 2024] [INF] reactor is no longer formed
+[Sat Jul 13 21:10:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:10:50 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:10:50 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:10:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:10:50 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:10:50 2024] [INF] reactor is now formed
+[Sat Jul 13 21:10:50 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:10:51 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:10:51 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:10:51 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:13:48 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:13:48 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:13:48 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:13:48 2024] [INF] reactor reconnected
+[Sat Jul 13 21:13:48 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:13:48 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:13:48 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:13:48 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 21:13:48 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 21:13:48 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:13:48 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:13:48 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:13:48 2024] [INF] reactor reconnected
+[Sat Jul 13 21:13:48 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:13:48 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:13:48 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:13:48 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:13:48 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:13:48 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:13:48 2024] [INF] reactor reconnected
+[Sat Jul 13 21:13:48 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:13:48 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:13:48 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:13:49 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:13:49 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:21:04 2024] [INF] ========================================
+[Sat Jul 13 21:21:04 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:21:04 2024] [INF] ========================================
+[Sat Jul 13 21:21:04 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:21:04 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:21:04 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:21:04 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:21:04 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:21:04 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:21:04 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:21:04 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:21:04 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:21:04 2024] [DBG] init> rps init
+[Sat Jul 13 21:21:04 2024] [INF] init> running without networking
+[Sat Jul 13 21:21:04 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:21:04 2024] [INF] init> startup completed
+[Sat Jul 13 21:21:04 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:21:04 2024] [DBG] rps thread start
+[Sat Jul 13 21:21:04 2024] [DBG] main thread clock started
+[Sat Jul 13 21:21:04 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:21:04 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:21:04 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:21:05 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:21:05 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:21:05 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:21:05 2024] [INF] reactor reconnected
+[Sat Jul 13 21:21:05 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:21:05 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:21:05 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:21:05 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:21:05 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:21:05 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:21:05 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:24:03 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:24:03 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:24:03 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:24:03 2024] [INF] reactor reconnected
+[Sat Jul 13 21:24:03 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:24:03 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:24:03 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:24:03 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:24:03 2024] [INF] reactor reconnected
+[Sat Jul 13 21:24:03 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:24:03 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:24:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:24:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:24:03 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:24:03 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:24:03 2024] [INF] reactor reconnected
+[Sat Jul 13 21:24:03 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:24:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 21:24:03 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:24:03 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:24:03 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:24:03 2024] [INF] reactor reconnected
+[Sat Jul 13 21:24:03 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:24:03 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:24:03 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:24:04 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:24:04 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:27 2024] [INF] ========================================
+[Sat Jul 13 21:28:27 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:28:27 2024] [INF] ========================================
+[Sat Jul 13 21:28:27 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:28:27 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:28:27 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:28:27 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:28:27 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:28:27 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:28:27 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:28:27 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:28:27 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:28:27 2024] [DBG] init> rps init
+[Sat Jul 13 21:28:27 2024] [INF] init> running without networking
+[Sat Jul 13 21:28:27 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:28:27 2024] [INF] init> startup completed
+[Sat Jul 13 21:28:27 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:28:27 2024] [DBG] rps thread start
+[Sat Jul 13 21:28:27 2024] [DBG] main thread clock started
+[Sat Jul 13 21:28:27 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:28:27 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:28:27 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:28:27 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:28:27 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:28:27 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:28:27 2024] [INF] reactor reconnected
+[Sat Jul 13 21:28:27 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:28:27 2024] [INF] reactor is no longer formed
+[Sat Jul 13 21:28:27 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:27 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:28:28 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:28:28 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:28 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:28:28 2024] [INF] reactor is now formed
+[Sat Jul 13 21:28:28 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:28:28 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:28:28 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:28 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:45 2024] [INF] ========================================
+[Sat Jul 13 21:28:45 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:28:45 2024] [INF] ========================================
+[Sat Jul 13 21:28:45 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:28:45 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:28:45 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:28:45 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:28:45 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:28:45 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:28:45 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:28:45 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:28:45 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:28:45 2024] [DBG] init> rps init
+[Sat Jul 13 21:28:45 2024] [INF] init> running without networking
+[Sat Jul 13 21:28:45 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:28:45 2024] [INF] init> startup completed
+[Sat Jul 13 21:28:45 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:28:45 2024] [DBG] rps thread start
+[Sat Jul 13 21:28:45 2024] [DBG] main thread clock started
+[Sat Jul 13 21:28:45 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:28:45 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:28:45 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:28:46 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:28:46 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:28:46 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:28:46 2024] [INF] reactor reconnected
+[Sat Jul 13 21:28:46 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:28:46 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:28:46 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:28:46 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:28:46 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:28:46 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:29:18 2024] [INF] ========================================
+[Sat Jul 13 21:29:18 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:29:18 2024] [INF] ========================================
+[Sat Jul 13 21:29:18 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:29:18 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:29:18 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:29:18 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:29:18 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:29:18 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:29:18 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:29:18 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:29:18 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sat Jul 13 21:29:18 2024] [DBG] init> rps init
+[Sat Jul 13 21:29:18 2024] [INF] init> running without networking
+[Sat Jul 13 21:29:18 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:29:18 2024] [INF] init> startup completed
+[Sat Jul 13 21:29:18 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:29:18 2024] [DBG] rps thread start
+[Sat Jul 13 21:29:18 2024] [DBG] main thread clock started
+[Sat Jul 13 21:29:18 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:29:18 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:29:18 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 21:29:18 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:29:18 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:29:18 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:29:18 2024] [INF] reactor reconnected
+[Sat Jul 13 21:29:18 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:29:18 2024] [INF] reactor is no longer formed
+[Sat Jul 13 21:29:18 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:29:18 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:29:18 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:29:18 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:29:18 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:29:19 2024] [INF] reactor is now formed
+[Sat Jul 13 21:29:19 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:29:19 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:29:19 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:29:19 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:31:18 2024] [INF] ========================================
+[Sat Jul 13 21:31:18 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:31:18 2024] [INF] ========================================
+[Sat Jul 13 21:31:18 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:31:18 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:31:18 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:31:18 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:31:18 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:31:18 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:31:18 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:31:18 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:31:18 2024] [DBG] init> rps init
+[Sat Jul 13 21:31:18 2024] [INF] init> running without networking
+[Sat Jul 13 21:31:18 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:31:18 2024] [INF] init> startup completed
+[Sat Jul 13 21:31:18 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:31:18 2024] [DBG] rps thread start
+[Sat Jul 13 21:31:18 2024] [DBG] main thread clock started
+[Sat Jul 13 21:31:18 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:31:18 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:31:18 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:31:18 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:32:50 2024] [INF] ========================================
+[Sat Jul 13 21:32:50 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:32:50 2024] [INF] ========================================
+[Sat Jul 13 21:32:50 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:32:50 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:32:50 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:32:50 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:32:50 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:32:50 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:32:50 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:32:50 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:32:50 2024] [DBG] init> rps init
+[Sat Jul 13 21:32:50 2024] [INF] init> running without networking
+[Sat Jul 13 21:32:50 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:32:50 2024] [INF] init> startup completed
+[Sat Jul 13 21:32:50 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:32:50 2024] [DBG] rps thread start
+[Sat Jul 13 21:32:50 2024] [DBG] main thread clock started
+[Sat Jul 13 21:32:50 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:32:50 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:32:50 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:32:50 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:35:54 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:35:54 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:35:54 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:35:54 2024] [INF] reactor reconnected
+[Sat Jul 13 21:35:54 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:35:54 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:35:54 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:35:54 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 21:35:54 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sat Jul 13 21:35:55 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sat Jul 13 21:35:55 2024] [INF] reactor is no longer formed
+[Sat Jul 13 21:35:55 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 21:35:55 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 21:35:57 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 21:35:57 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 21:35:57 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 21:35:57 2024] [INF] reactor reconnected
+[Sat Jul 13 21:35:57 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 21:35:57 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:35:57 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:35:57 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:35:57 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:49:43 2024] [INF] ========================================
+[Sat Jul 13 21:49:43 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:49:43 2024] [INF] ========================================
+[Sat Jul 13 21:49:43 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:49:43 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:49:43 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:49:43 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:49:43 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:49:43 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:49:43 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:49:43 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:49:43 2024] [DBG] init> rps init
+[Sat Jul 13 21:49:43 2024] [INF] init> running without networking
+[Sat Jul 13 21:49:43 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:49:43 2024] [INF] init> startup completed
+[Sat Jul 13 21:49:43 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:49:43 2024] [DBG] rps thread start
+[Sat Jul 13 21:49:43 2024] [DBG] main thread clock started
+[Sat Jul 13 21:49:43 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:49:43 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:49:43 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:49:43 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 21:59:26 2024] [INF] ========================================
+[Sat Jul 13 21:59:26 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 21:59:26 2024] [INF] ========================================
+[Sat Jul 13 21:59:26 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 21:59:26 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 21:59:26 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 21:59:26 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 21:59:26 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 21:59:26 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 21:59:26 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 21:59:26 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 21:59:26 2024] [DBG] init> rps init
+[Sat Jul 13 21:59:26 2024] [INF] init> running without networking
+[Sat Jul 13 21:59:26 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 21:59:26 2024] [INF] init> startup completed
+[Sat Jul 13 21:59:26 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 21:59:26 2024] [DBG] rps thread start
+[Sat Jul 13 21:59:26 2024] [DBG] main thread clock started
+[Sat Jul 13 21:59:26 2024] [WRN] RPS: low coolant
+[Sat Jul 13 21:59:26 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 21:59:26 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 21:59:26 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 22:09:08 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 22:09:08 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 22:09:08 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 22:09:08 2024] [INF] reactor reconnected
+[Sat Jul 13 22:09:08 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 22:09:08 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 22:09:08 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 22:09:08 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 22:09:08 2024] [INF] reactor reconnected
+[Sat Jul 13 22:09:08 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 22:09:08 2024] [INF] reactor is no longer formed
+[Sat Jul 13 22:09:08 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:09:08 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:09:08 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:09:08 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:09:08 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:09:09 2024] [INF] reactor is now formed
+[Sat Jul 13 22:09:09 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 22:09:09 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:09:09 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:09:09 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:14:27 2024] [INF] ========================================
+[Sat Jul 13 22:14:27 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 22:14:27 2024] [INF] ========================================
+[Sat Jul 13 22:14:27 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 22:14:27 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 22:14:27 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 22:14:27 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 22:14:27 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 22:14:27 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 22:14:27 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 22:14:27 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 22:14:27 2024] [DBG] init> rps init
+[Sat Jul 13 22:14:27 2024] [INF] init> running without networking
+[Sat Jul 13 22:14:27 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 22:14:27 2024] [INF] init> startup completed
+[Sat Jul 13 22:14:27 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 22:14:27 2024] [DBG] rps thread start
+[Sat Jul 13 22:14:27 2024] [DBG] main thread clock started
+[Sat Jul 13 22:14:27 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:14:27 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:14:27 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:14:27 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 22:16:05 2024] [INF] ========================================
+[Sat Jul 13 22:16:05 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 22:16:05 2024] [INF] ========================================
+[Sat Jul 13 22:16:05 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 22:16:05 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 22:16:05 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 22:16:05 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 22:16:05 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 22:16:05 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 22:16:05 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 22:16:05 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 22:16:05 2024] [DBG] init> rps init
+[Sat Jul 13 22:16:05 2024] [INF] init> running without networking
+[Sat Jul 13 22:16:05 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 22:16:05 2024] [INF] init> startup completed
+[Sat Jul 13 22:16:05 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 22:16:05 2024] [DBG] rps thread start
+[Sat Jul 13 22:16:05 2024] [DBG] main thread clock started
+[Sat Jul 13 22:16:05 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:16:05 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:16:05 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:16:05 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 22:20:28 2024] [INF] ========================================
+[Sat Jul 13 22:20:28 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 22:20:28 2024] [INF] ========================================
+[Sat Jul 13 22:20:28 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 22:20:28 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 22:20:28 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 22:20:28 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 22:20:28 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 22:20:28 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 22:20:28 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 22:20:28 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 22:20:28 2024] [DBG] init> rps init
+[Sat Jul 13 22:20:28 2024] [INF] init> running without networking
+[Sat Jul 13 22:20:28 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 22:20:28 2024] [INF] init> startup completed
+[Sat Jul 13 22:20:28 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 22:20:28 2024] [DBG] rps thread start
+[Sat Jul 13 22:20:28 2024] [DBG] main thread clock started
+[Sat Jul 13 22:20:28 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:20:28 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:20:28 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:20:28 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 22:34:34 2024] [INF] ========================================
+[Sat Jul 13 22:34:34 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 22:34:34 2024] [INF] ========================================
+[Sat Jul 13 22:34:34 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 22:34:34 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 22:34:34 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 22:34:34 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 22:34:34 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 22:34:34 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 22:34:34 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 22:34:34 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 22:34:34 2024] [DBG] init> rps init
+[Sat Jul 13 22:34:34 2024] [INF] init> running without networking
+[Sat Jul 13 22:34:34 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 22:34:34 2024] [INF] init> startup completed
+[Sat Jul 13 22:34:34 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 22:34:34 2024] [DBG] rps thread start
+[Sat Jul 13 22:34:34 2024] [DBG] main thread clock started
+[Sat Jul 13 22:34:34 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:34:34 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:34:34 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:34:34 2024] [INF] RPS: emergency coolant valve OPENED
+[Sat Jul 13 22:37:33 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 22:37:33 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 22:37:33 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 22:37:33 2024] [INF] reactor reconnected
+[Sat Jul 13 22:37:33 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sat Jul 13 22:37:33 2024] [WRN] RPS: system failure, reactor not formed
+[Sat Jul 13 22:37:33 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sat Jul 13 22:37:33 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sat Jul 13 22:37:33 2024] [ERR] RPS: failed reactor SCRAM
+[Sat Jul 13 22:37:33 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sat Jul 13 22:37:33 2024] [ERR] reactor logic adapter disconnected
+[Sat Jul 13 22:37:33 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sat Jul 13 22:37:33 2024] [INF] reactor reconnected
+[Sat Jul 13 22:37:33 2024] [INF] RPS: partial reset on formed
+[Sat Jul 13 22:37:33 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:37:33 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:37:33 2024] [WRN] RPS: low coolant
+[Sat Jul 13 22:37:33 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:56:44 2024] [INF] ========================================
+[Sat Jul 13 22:56:44 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 22:56:44 2024] [INF] ========================================
+[Sat Jul 13 22:56:44 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 22:56:44 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 22:56:44 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 22:56:44 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 22:56:44 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 22:56:44 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 22:56:44 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 22:56:44 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 22:56:44 2024] [DBG] init> rps init
+[Sat Jul 13 22:56:44 2024] [INF] init> running without networking
+[Sat Jul 13 22:56:44 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 22:56:44 2024] [INF] init> startup completed
+[Sat Jul 13 22:56:44 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 22:56:44 2024] [DBG] rps thread start
+[Sat Jul 13 22:56:44 2024] [DBG] main thread clock started
+[Sat Jul 13 22:56:44 2024] [WRN] RPS: no fuel
+[Sat Jul 13 22:56:44 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 22:56:44 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 22:56:44 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 23:40:47 2024] [INF] ========================================
+[Sat Jul 13 23:40:47 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 23:40:47 2024] [INF] ========================================
+[Sat Jul 13 23:40:47 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 23:40:47 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 23:40:47 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 23:40:47 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 23:40:47 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 23:40:47 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 23:40:47 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 23:40:47 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 23:40:47 2024] [DBG] init> rps init
+[Sat Jul 13 23:40:47 2024] [INF] init> running without networking
+[Sat Jul 13 23:40:47 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 23:40:47 2024] [INF] init> startup completed
+[Sat Jul 13 23:40:47 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 23:40:47 2024] [DBG] rps thread start
+[Sat Jul 13 23:40:47 2024] [DBG] main thread clock started
+[Sat Jul 13 23:40:47 2024] [WRN] RPS: no fuel
+[Sat Jul 13 23:40:47 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 23:40:47 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 23:40:47 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sat Jul 13 23:42:46 2024] [INF] ========================================
+[Sat Jul 13 23:42:46 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sat Jul 13 23:42:46 2024] [INF] ========================================
+[Sat Jul 13 23:42:46 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sat Jul 13 23:42:46 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sat Jul 13 23:42:46 2024] [DBG] APPLICATION:      reactor-plc
+[Sat Jul 13 23:42:46 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sat Jul 13 23:42:46 2024] [DBG] COMMS VERSION:    3.0.0
+[Sat Jul 13 23:42:46 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sat Jul 13 23:42:46 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sat Jul 13 23:42:46 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sat Jul 13 23:42:46 2024] [DBG] init> rps init
+[Sat Jul 13 23:42:46 2024] [INF] init> running without networking
+[Sat Jul 13 23:42:46 2024] [INF] init> running with emergency coolant control available
+[Sat Jul 13 23:42:46 2024] [INF] init> startup completed
+[Sat Jul 13 23:42:46 2024] [DBG] main thread init, clock inactive
+[Sat Jul 13 23:42:46 2024] [DBG] rps thread start
+[Sat Jul 13 23:42:46 2024] [DBG] main thread clock started
+[Sat Jul 13 23:42:47 2024] [WRN] RPS: no fuel
+[Sat Jul 13 23:42:47 2024] [INF] RPS: reactor SCRAM
+[Sat Jul 13 23:42:47 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sat Jul 13 23:42:47 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 00:20:04 2024] [INF] ========================================
+[Sun Jul 14 00:20:04 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 00:20:04 2024] [INF] ========================================
+[Sun Jul 14 00:20:04 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 00:20:04 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 00:20:04 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 00:20:04 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 00:20:04 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 00:20:04 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 00:20:04 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 00:20:04 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 00:20:05 2024] [DBG] init> rps init
+[Sun Jul 14 00:20:05 2024] [INF] init> running without networking
+[Sun Jul 14 00:20:05 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 00:20:05 2024] [INF] init> startup completed
+[Sun Jul 14 00:20:05 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 00:20:05 2024] [DBG] rps thread start
+[Sun Jul 14 00:20:05 2024] [DBG] main thread clock started
+[Sun Jul 14 00:20:05 2024] [WRN] RPS: no fuel
+[Sun Jul 14 00:20:05 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 00:20:05 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 00:20:05 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 00:21:13 2024] [INF] ========================================
+[Sun Jul 14 00:21:13 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 00:21:13 2024] [INF] ========================================
+[Sun Jul 14 00:21:13 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 00:21:13 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 00:21:13 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 00:21:13 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 00:21:13 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 00:21:13 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 00:21:13 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 00:21:13 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 00:21:13 2024] [DBG] init> rps init
+[Sun Jul 14 00:21:13 2024] [INF] init> running without networking
+[Sun Jul 14 00:21:13 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 00:21:13 2024] [INF] init> startup completed
+[Sun Jul 14 00:21:13 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 00:21:13 2024] [DBG] rps thread start
+[Sun Jul 14 00:21:13 2024] [DBG] main thread clock started
+[Sun Jul 14 00:21:13 2024] [WRN] RPS: no fuel
+[Sun Jul 14 00:21:13 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 00:21:13 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 00:21:13 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 00:28:37 2024] [INF] ========================================
+[Sun Jul 14 00:28:37 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 00:28:37 2024] [INF] ========================================
+[Sun Jul 14 00:28:37 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 00:28:37 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 00:28:37 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 00:28:37 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 00:28:37 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 00:28:37 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 00:28:37 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 00:28:37 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 00:28:38 2024] [DBG] init> rps init
+[Sun Jul 14 00:28:38 2024] [INF] init> running without networking
+[Sun Jul 14 00:28:38 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 00:28:38 2024] [INF] init> startup completed
+[Sun Jul 14 00:28:38 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 00:28:38 2024] [DBG] rps thread start
+[Sun Jul 14 00:28:38 2024] [DBG] main thread clock started
+[Sun Jul 14 00:28:38 2024] [WRN] RPS: no fuel
+[Sun Jul 14 00:28:38 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 00:28:38 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 00:28:38 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 02:05:00 2024] [INF] ========================================
+[Sun Jul 14 02:05:00 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 02:05:00 2024] [INF] ========================================
+[Sun Jul 14 02:05:00 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 02:05:00 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 02:05:00 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 02:05:00 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 02:05:00 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 02:05:00 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 02:05:00 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 02:05:00 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 02:05:00 2024] [DBG] init> rps init
+[Sun Jul 14 02:05:00 2024] [INF] init> running without networking
+[Sun Jul 14 02:05:00 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 02:05:00 2024] [INF] init> startup completed
+[Sun Jul 14 02:05:00 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 02:05:00 2024] [DBG] rps thread start
+[Sun Jul 14 02:05:00 2024] [DBG] main thread clock started
+[Sun Jul 14 02:05:00 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:05:00 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:05:00 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:05:00 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 02:15:21 2024] [INF] ========================================
+[Sun Jul 14 02:15:21 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 02:15:21 2024] [INF] ========================================
+[Sun Jul 14 02:15:21 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 02:15:21 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 02:15:21 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 02:15:21 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 02:15:21 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 02:15:21 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 02:15:21 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 02:15:21 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 02:15:21 2024] [DBG] init> rps init
+[Sun Jul 14 02:15:21 2024] [INF] init> running without networking
+[Sun Jul 14 02:15:21 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 02:15:21 2024] [INF] init> startup completed
+[Sun Jul 14 02:15:21 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 02:15:21 2024] [DBG] rps thread start
+[Sun Jul 14 02:15:21 2024] [DBG] main thread clock started
+[Sun Jul 14 02:15:21 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:15:21 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:15:21 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:15:21 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 02:34:01 2024] [INF] ========================================
+[Sun Jul 14 02:34:01 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 02:34:01 2024] [INF] ========================================
+[Sun Jul 14 02:34:01 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 02:34:01 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 02:34:01 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 02:34:01 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 02:34:01 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 02:34:01 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 02:34:01 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 02:34:01 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 02:34:01 2024] [DBG] init> rps init
+[Sun Jul 14 02:34:01 2024] [INF] init> running without networking
+[Sun Jul 14 02:34:01 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 02:34:01 2024] [INF] init> startup completed
+[Sun Jul 14 02:34:01 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 02:34:01 2024] [DBG] rps thread start
+[Sun Jul 14 02:34:01 2024] [DBG] main thread clock started
+[Sun Jul 14 02:34:01 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:34:01 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:34:01 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:34:01 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 02:34:40 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:34:40 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:34:40 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:34:40 2024] [INF] reactor reconnected
+[Sun Jul 14 02:34:40 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sun Jul 14 02:34:40 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:34:40 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:34:40 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:34:40 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:34:40 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:34:41 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:34:46 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:34:46 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:34:46 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:34:46 2024] [INF] reactor reconnected
+[Sun Jul 14 02:34:46 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:34:47 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:34:47 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:34:47 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:34:47 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:34:47 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:34:47 2024] [INF] reactor is now formed
+[Sun Jul 14 02:34:47 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:34:47 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:34:47 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:34:47 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:35:20 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:35:20 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:35:20 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:35:20 2024] [INF] reactor reconnected
+[Sun Jul 14 02:35:20 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:35:20 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:35:20 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:35:20 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sun Jul 14 02:35:20 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sun Jul 14 02:35:20 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:35:20 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:35:21 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:36:24 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:36:24 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:36:24 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:36:24 2024] [INF] reactor reconnected
+[Sun Jul 14 02:36:24 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:36:24 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:36:24 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:36:24 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:36:24 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:36:24 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:36:25 2024] [INF] reactor is now formed
+[Sun Jul 14 02:36:25 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:36:25 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:36:25 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:36:25 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:49:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:49:50 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:49:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:49:50 2024] [INF] reactor reconnected
+[Sun Jul 14 02:49:50 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sun Jul 14 02:49:50 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:49:50 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:49:50 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:49:50 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:49:50 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:49:51 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:50:16 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:50:16 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:50:16 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:50:16 2024] [INF] reactor reconnected
+[Sun Jul 14 02:50:16 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:50:16 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:50:16 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:50:17 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:50:17 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:50:49 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:50:49 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:50:49 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:50:49 2024] [INF] reactor reconnected
+[Sun Jul 14 02:50:49 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:50:49 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:50:49 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:50:49 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:50:49 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:50:49 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:50:49 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:52:09 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:52:09 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:52:09 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:52:09 2024] [INF] reactor reconnected
+[Sun Jul 14 02:52:09 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:52:09 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:52:09 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:52:10 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:52:10 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:52:13 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:52:13 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:52:13 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:52:13 2024] [INF] reactor reconnected
+[Sun Jul 14 02:52:13 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function isForceDisabled()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getDamagePercent()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getTemperature()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getCoolantFilledPercentage()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getWasteFilledPercentage()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getHeatedCoolantFilledPercentage()
+[Sun Jul 14 02:52:13 2024] [ERR] PPM: [@back] caught undefined function getFuelFilledPercentage()
+[Sun Jul 14 02:52:14 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:52:14 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:52:14 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:52:14 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:52:14 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:52:14 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:52:16 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:52:16 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:52:16 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:52:16 2024] [INF] reactor reconnected
+[Sun Jul 14 02:52:16 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:52:16 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:52:16 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:52:16 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:52:16 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:52:16 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:54:20 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:54:20 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:54:20 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:54:20 2024] [INF] reactor reconnected
+[Sun Jul 14 02:54:20 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:54:20 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 02:54:20 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 02:54:20 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:54:20 2024] [ERR] PPM: [@back] caught undefined function scram()
+[Sun Jul 14 02:54:20 2024] [ERR] RPS: failed reactor SCRAM
+[Sun Jul 14 02:54:21 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:55:36 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 02:55:36 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 02:55:36 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 02:55:36 2024] [INF] reactor reconnected
+[Sun Jul 14 02:55:36 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:55:36 2024] [INF] reactor is no longer formed
+[Sun Jul 14 02:55:36 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:55:36 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:55:36 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 02:55:36 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:55:37 2024] [INF] reactor is now formed
+[Sun Jul 14 02:55:37 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 02:55:37 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:55:37 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:55:37 2024] [WRN] RPS: no fuel
+[Sun Jul 14 02:55:37 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:55:43 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 02:55:49 2024] [INF] RPS: reset
+[Sun Jul 14 03:19:40 2024] [WRN] RPS: low coolant
+[Sun Jul 14 03:19:40 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 03:19:40 2024] [INF] RPS: emergency coolant valve OPENED
+[Sun Jul 14 03:26:33 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 03:26:34 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 03:26:35 2024] [INF] RPS: reset
+[Sun Jul 14 03:26:35 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 03:30:42 2024] [WRN] RPS: low coolant
+[Sun Jul 14 03:30:42 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 03:30:42 2024] [INF] RPS: emergency coolant valve OPENED
+[Sun Jul 14 03:30:49 2024] [INF] RPS: reset
+[Sun Jul 14 03:30:49 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 16:47:51 2024] [INF] ========================================
+[Sun Jul 14 16:47:51 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 16:47:51 2024] [INF] ========================================
+[Sun Jul 14 16:47:51 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 16:47:51 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 16:47:51 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 16:47:51 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 16:47:51 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 16:47:51 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 16:47:51 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 16:47:51 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 16:47:52 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sun Jul 14 16:47:52 2024] [DBG] init> rps init
+[Sun Jul 14 16:47:52 2024] [INF] init> running without networking
+[Sun Jul 14 16:47:52 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 16:47:52 2024] [INF] init> startup completed
+[Sun Jul 14 16:47:52 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 16:47:52 2024] [DBG] rps thread start
+[Sun Jul 14 16:47:52 2024] [DBG] main thread clock started
+[Sun Jul 14 16:47:52 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 16:47:52 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 16:47:52 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 16:47:52 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 16:47:52 2024] [INF] reactor reconnected
+[Sun Jul 14 16:47:52 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 16:47:52 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 16:47:52 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 16:50:06 2024] [INF] ========================================
+[Sun Jul 14 16:50:06 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Sun Jul 14 16:50:06 2024] [INF] ========================================
+[Sun Jul 14 16:50:06 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Sun Jul 14 16:50:06 2024] [DBG] LUA VERSION:      Lua 5.2
+[Sun Jul 14 16:50:06 2024] [DBG] APPLICATION:      reactor-plc
+[Sun Jul 14 16:50:06 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Sun Jul 14 16:50:06 2024] [DBG] COMMS VERSION:    3.0.0
+[Sun Jul 14 16:50:06 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Sun Jul 14 16:50:06 2024] [DBG] LOCKBOX VERSION:  1.1
+[Sun Jul 14 16:50:06 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Sun Jul 14 16:50:06 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Sun Jul 14 16:50:06 2024] [DBG] init> rps init
+[Sun Jul 14 16:50:06 2024] [INF] init> running without networking
+[Sun Jul 14 16:50:06 2024] [INF] init> running with emergency coolant control available
+[Sun Jul 14 16:50:06 2024] [INF] init> startup completed
+[Sun Jul 14 16:50:06 2024] [DBG] main thread init, clock inactive
+[Sun Jul 14 16:50:06 2024] [DBG] rps thread start
+[Sun Jul 14 16:50:06 2024] [DBG] main thread clock started
+[Sun Jul 14 16:50:06 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 16:50:06 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Sun Jul 14 16:50:06 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 16:50:06 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Sun Jul 14 16:50:06 2024] [ERR] reactor logic adapter disconnected
+[Sun Jul 14 16:50:06 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Sun Jul 14 16:50:06 2024] [INF] reactor reconnected
+[Sun Jul 14 16:50:06 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 16:50:06 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 16:50:06 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 16:50:06 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Sun Jul 14 16:50:06 2024] [INF] reactor is no longer formed
+[Sun Jul 14 16:50:06 2024] [WRN] RPS: system failure, reactor not formed
+[Sun Jul 14 16:50:06 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 16:50:07 2024] [INF] reactor is now formed
+[Sun Jul 14 16:50:07 2024] [INF] RPS: partial reset on formed
+[Sun Jul 14 16:50:07 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 21:43:20 2024] [WRN] RPS: low coolant
+[Sun Jul 14 21:43:20 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 21:43:21 2024] [INF] RPS: emergency coolant valve OPENED
+[Sun Jul 14 21:43:24 2024] [INF] RPS: reset
+[Sun Jul 14 21:43:25 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 21:43:50 2024] [WRN] RPS: low coolant
+[Sun Jul 14 21:43:50 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 21:43:51 2024] [INF] RPS: emergency coolant valve OPENED
+[Sun Jul 14 21:44:02 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 21:44:09 2024] [INF] RPS: reset
+[Sun Jul 14 21:44:10 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 21:45:01 2024] [WRN] RPS: low coolant
+[Sun Jul 14 21:45:01 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 21:45:01 2024] [INF] RPS: emergency coolant valve OPENED
+[Sun Jul 14 22:05:30 2024] [INF] RPS: reactor SCRAM
+[Sun Jul 14 22:05:33 2024] [INF] RPS: reset
+[Sun Jul 14 22:05:33 2024] [INF] RPS: emergency coolant valve CLOSED
+[Sun Jul 14 22:12:29 2024] [INF] RPS: reset
+[Mon Jul 15 15:15:27 2024] [INF] ========================================
+[Mon Jul 15 15:15:27 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Mon Jul 15 15:15:27 2024] [INF] ========================================
+[Mon Jul 15 15:15:27 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Mon Jul 15 15:15:27 2024] [DBG] LUA VERSION:      Lua 5.2
+[Mon Jul 15 15:15:27 2024] [DBG] APPLICATION:      reactor-plc
+[Mon Jul 15 15:15:27 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Mon Jul 15 15:15:27 2024] [DBG] COMMS VERSION:    3.0.0
+[Mon Jul 15 15:15:27 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Mon Jul 15 15:15:27 2024] [DBG] LOCKBOX VERSION:  1.1
+[Mon Jul 15 15:15:27 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Mon Jul 15 15:15:27 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Mon Jul 15 15:15:27 2024] [DBG] init> rps init
+[Mon Jul 15 15:15:27 2024] [INF] init> running without networking
+[Mon Jul 15 15:15:27 2024] [INF] init> running with emergency coolant control available
+[Mon Jul 15 15:15:27 2024] [INF] init> startup completed
+[Mon Jul 15 15:15:27 2024] [DBG] main thread init, clock inactive
+[Mon Jul 15 15:15:27 2024] [DBG] rps thread start
+[Mon Jul 15 15:15:27 2024] [DBG] main thread clock started
+[Mon Jul 15 15:15:27 2024] [WRN] RPS: system failure, reactor not formed
+[Mon Jul 15 15:15:27 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Mon Jul 15 15:15:27 2024] [INF] RPS: emergency coolant valve CLOSED
+[Mon Jul 15 15:15:28 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Mon Jul 15 15:15:28 2024] [ERR] reactor logic adapter disconnected
+[Mon Jul 15 15:15:28 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Mon Jul 15 15:15:28 2024] [INF] reactor reconnected
+[Mon Jul 15 15:15:28 2024] [INF] RPS: partial reset on formed
+[Mon Jul 15 15:15:28 2024] [INF] RPS: reactor SCRAM
+[Mon Jul 15 15:15:28 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Mon Jul 15 19:19:52 2024] [INF] ========================================
+[Mon Jul 15 19:19:52 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Mon Jul 15 19:19:52 2024] [INF] ========================================
+[Mon Jul 15 19:19:52 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Mon Jul 15 19:19:52 2024] [DBG] LUA VERSION:      Lua 5.2
+[Mon Jul 15 19:19:52 2024] [DBG] APPLICATION:      reactor-plc
+[Mon Jul 15 19:19:52 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Mon Jul 15 19:19:52 2024] [DBG] COMMS VERSION:    3.0.0
+[Mon Jul 15 19:19:52 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Mon Jul 15 19:19:52 2024] [DBG] LOCKBOX VERSION:  1.1
+[Mon Jul 15 19:19:52 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Mon Jul 15 19:19:52 2024] [ERR] PPM: [@back] caught undefined function getStatus()
+[Mon Jul 15 19:19:52 2024] [DBG] init> rps init
+[Mon Jul 15 19:19:52 2024] [INF] init> running without networking
+[Mon Jul 15 19:19:52 2024] [INF] init> running with emergency coolant control available
+[Mon Jul 15 19:19:52 2024] [INF] init> startup completed
+[Mon Jul 15 19:19:52 2024] [DBG] main thread init, clock inactive
+[Mon Jul 15 19:19:52 2024] [DBG] rps thread start
+[Mon Jul 15 19:19:52 2024] [INF] PPM: [@back] initialized previously undefined field getStatus()
+[Mon Jul 15 19:19:52 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Mon Jul 15 19:19:52 2024] [ERR] reactor logic adapter disconnected
+[Mon Jul 15 19:19:52 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Mon Jul 15 19:19:52 2024] [INF] reactor reconnected
+[Mon Jul 15 19:19:52 2024] [INF] RPS: partial reset on formed
+[Mon Jul 15 19:19:52 2024] [DBG] main thread clock started
+[Mon Jul 15 19:19:52 2024] [INF] RPS: emergency coolant valve CLOSED
+[Mon Jul 15 19:19:52 2024] [INF] RPS: reactor SCRAM
+[Mon Jul 15 19:19:52 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Mon Jul 15 23:18:50 2024] [INF] ========================================
+[Mon Jul 15 23:18:50 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Mon Jul 15 23:18:50 2024] [INF] ========================================
+[Mon Jul 15 23:18:50 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Mon Jul 15 23:18:50 2024] [DBG] LUA VERSION:      Lua 5.2
+[Mon Jul 15 23:18:50 2024] [DBG] APPLICATION:      reactor-plc
+[Mon Jul 15 23:18:50 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Mon Jul 15 23:18:50 2024] [DBG] COMMS VERSION:    3.0.0
+[Mon Jul 15 23:18:50 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Mon Jul 15 23:18:50 2024] [DBG] LOCKBOX VERSION:  1.1
+[Mon Jul 15 23:18:50 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Mon Jul 15 23:18:50 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Mon Jul 15 23:18:50 2024] [DBG] init> rps init
+[Mon Jul 15 23:18:50 2024] [INF] init> running without networking
+[Mon Jul 15 23:18:50 2024] [INF] init> running with emergency coolant control available
+[Mon Jul 15 23:18:50 2024] [INF] init> startup completed
+[Mon Jul 15 23:18:50 2024] [DBG] main thread init, clock inactive
+[Mon Jul 15 23:18:50 2024] [DBG] rps thread start
+[Mon Jul 15 23:18:50 2024] [DBG] main thread clock started
+[Mon Jul 15 23:18:50 2024] [WRN] RPS: system failure, reactor not formed
+[Mon Jul 15 23:18:50 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Mon Jul 15 23:18:50 2024] [INF] RPS: emergency coolant valve CLOSED
+[Mon Jul 15 23:18:50 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Mon Jul 15 23:18:50 2024] [ERR] reactor logic adapter disconnected
+[Mon Jul 15 23:18:50 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Mon Jul 15 23:18:50 2024] [INF] reactor reconnected
+[Mon Jul 15 23:18:50 2024] [INF] RPS: partial reset on formed
+[Mon Jul 15 23:18:50 2024] [INF] RPS: reactor SCRAM
+[Mon Jul 15 23:18:50 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Mon Jul 15 23:39:56 2024] [INF] ========================================
+[Mon Jul 15 23:39:56 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Mon Jul 15 23:39:56 2024] [INF] ========================================
+[Mon Jul 15 23:39:56 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Mon Jul 15 23:39:56 2024] [DBG] LUA VERSION:      Lua 5.2
+[Mon Jul 15 23:39:56 2024] [DBG] APPLICATION:      reactor-plc
+[Mon Jul 15 23:39:56 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Mon Jul 15 23:39:56 2024] [DBG] COMMS VERSION:    3.0.0
+[Mon Jul 15 23:39:56 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Mon Jul 15 23:39:56 2024] [DBG] LOCKBOX VERSION:  1.1
+[Mon Jul 15 23:39:56 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Mon Jul 15 23:39:56 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Mon Jul 15 23:39:56 2024] [DBG] init> rps init
+[Mon Jul 15 23:39:56 2024] [INF] init> running without networking
+[Mon Jul 15 23:39:56 2024] [INF] init> running with emergency coolant control available
+[Mon Jul 15 23:39:56 2024] [INF] init> startup completed
+[Mon Jul 15 23:39:56 2024] [DBG] main thread init, clock inactive
+[Mon Jul 15 23:39:56 2024] [DBG] rps thread start
+[Mon Jul 15 23:39:56 2024] [DBG] main thread clock started
+[Mon Jul 15 23:39:56 2024] [WRN] RPS: system failure, reactor not formed
+[Mon Jul 15 23:39:56 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Mon Jul 15 23:39:56 2024] [INF] RPS: emergency coolant valve CLOSED
+[Mon Jul 15 23:39:56 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Mon Jul 15 23:39:56 2024] [ERR] reactor logic adapter disconnected
+[Mon Jul 15 23:39:56 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Mon Jul 15 23:39:56 2024] [INF] reactor reconnected
+[Mon Jul 15 23:39:56 2024] [INF] RPS: partial reset on formed
+[Mon Jul 15 23:39:57 2024] [INF] reactor is no longer formed
+[Mon Jul 15 23:39:57 2024] [INF] RPS: reactor SCRAM
+[Mon Jul 15 23:39:57 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Mon Jul 15 23:39:57 2024] [INF] reactor is now formed
+[Mon Jul 15 23:39:57 2024] [INF] RPS: partial reset on formed
+[Mon Jul 15 23:39:57 2024] [INF] RPS: reactor SCRAM
+[Tue Jul 16 00:17:53 2024] [INF] ========================================
+[Tue Jul 16 00:17:53 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Tue Jul 16 00:17:53 2024] [INF] ========================================
+[Tue Jul 16 00:17:53 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Tue Jul 16 00:17:53 2024] [DBG] LUA VERSION:      Lua 5.2
+[Tue Jul 16 00:17:53 2024] [DBG] APPLICATION:      reactor-plc
+[Tue Jul 16 00:17:53 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Tue Jul 16 00:17:53 2024] [DBG] COMMS VERSION:    3.0.0
+[Tue Jul 16 00:17:53 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Tue Jul 16 00:17:53 2024] [DBG] LOCKBOX VERSION:  1.1
+[Tue Jul 16 00:17:53 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Tue Jul 16 00:17:53 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Tue Jul 16 00:17:53 2024] [DBG] init> rps init
+[Tue Jul 16 00:17:53 2024] [INF] init> running without networking
+[Tue Jul 16 00:17:53 2024] [INF] init> running with emergency coolant control available
+[Tue Jul 16 00:17:53 2024] [INF] init> startup completed
+[Tue Jul 16 00:17:53 2024] [DBG] main thread init, clock inactive
+[Tue Jul 16 00:17:53 2024] [DBG] rps thread start
+[Tue Jul 16 00:17:53 2024] [DBG] main thread clock started
+[Tue Jul 16 00:17:53 2024] [WRN] RPS: system failure, reactor not formed
+[Tue Jul 16 00:17:53 2024] [WRN] RPS: skipping SCRAM due to not being formed
+[Tue Jul 16 00:17:53 2024] [INF] RPS: emergency coolant valve CLOSED
+[Tue Jul 16 00:17:53 2024] [WRN] PPM: lost device fissionReactorLogicAdapter mounted to back
+[Tue Jul 16 00:17:53 2024] [ERR] reactor logic adapter disconnected
+[Tue Jul 16 00:17:53 2024] [INF] PPM: mount(back) -> found a fissionReactorLogicAdapter
+[Tue Jul 16 00:17:53 2024] [INF] reactor reconnected
+[Tue Jul 16 00:17:53 2024] [INF] RPS: partial reset on formed
+[Tue Jul 16 00:17:53 2024] [INF] RPS: reactor SCRAM
+[Tue Jul 16 00:17:53 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
+[Tue Jul 16 17:51:18 2024] [INF] ========================================
+[Tue Jul 16 17:51:18 2024] [INF] BOOTING reactor-plc.startup v1.8.0
+[Tue Jul 16 17:51:18 2024] [INF] ========================================
+[Tue Jul 16 17:51:18 2024] [DBG] RUNTIME:          ComputerCraft 1.111.0 (Minecraft 1.20.1)
+[Tue Jul 16 17:51:18 2024] [DBG] LUA VERSION:      Lua 5.2
+[Tue Jul 16 17:51:18 2024] [DBG] APPLICATION:      reactor-plc
+[Tue Jul 16 17:51:18 2024] [DBG] FIRMWARE VERSION: v1.8.0
+[Tue Jul 16 17:51:18 2024] [DBG] COMMS VERSION:    3.0.0
+[Tue Jul 16 17:51:18 2024] [DBG] GRAPHICS VERSION: 2.3.0
+[Tue Jul 16 17:51:18 2024] [DBG] LOCKBOX VERSION:  1.1
+[Tue Jul 16 17:51:18 2024] [INF] PPM: found a fissionReactorLogicAdapter (back)
+[Tue Jul 16 17:51:18 2024] [WRN] init> reactor logic adapter present, but reactor is not formed
+[Tue Jul 16 17:51:18 2024] [DBG] init> rps init
+[Tue Jul 16 17:51:18 2024] [INF] init> running without networking
+[Tue Jul 16 17:51:18 2024] [INF] init> running with emergency coolant control available
+[Tue Jul 16 17:51:18 2024] [INF] init> startup completed
+[Tue Jul 16 17:51:18 2024] [DBG] main thread init, clock inactive
+[Tue Jul 16 17:51:18 2024] [DBG] rps thread start
+[Tue Jul 16 17:51:18 2024] [DBG] main thread clock started
+[Tue Jul 16 17:51:18 2024] [INF] RPS: emergency coolant valve CLOSED
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getStatus()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field isForceDisabled()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getDamagePercent()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getTemperature()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getCoolantFilledPercentage()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getWasteFilledPercentage()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getHeatedCoolantFilledPercentage()
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field getFuelFilledPercentage()
+[Tue Jul 16 17:51:19 2024] [INF] reactor is now formed
+[Tue Jul 16 17:51:19 2024] [INF] RPS: partial reset on formed
+[Tue Jul 16 17:51:19 2024] [INF] RPS: reactor SCRAM
+[Tue Jul 16 17:51:19 2024] [INF] PPM: [@back] initialized previously undefined field scram()
+[Tue Jul 16 17:51:19 2024] [ERR] PPM: [@back] protected scram() -> Scram requires the reactor to be active.
